@@ -9,7 +9,6 @@ def light_led(query):
 
     GPIO.setup(LED, GPIO.OUT)
 
-    state = GPIO.input(LED)
     if query == "allumer" : 
         GPIO.output(LED, GPIO.HIGH)
         

@@ -30,12 +30,12 @@ if __name__ == '__main__':
             speak("Pour votre commodité, je l'imprime sur l'écran monsieur.")
             pprint(joke)
 
-        elif 'advice' in query:
+        elif 'conseil' in query:
             speak(f"Voici un conseil pour vous, monsieur.")
-            advice = get_random_advice()
-            speak(advice)
+            conseil = get_random_advice()
+            speak(conseil)
             speak("Pour votre commodité, je l'imprime sur l'écran monsieur.")
-            pprint(advice)
+            pprint(conseil)
 
         elif 'température' in query:
             speak("Vous voulez connaître la température de quelle ville ?")

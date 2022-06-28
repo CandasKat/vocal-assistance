@@ -13,7 +13,7 @@ BOTNAME = config('BOTNAME')
 
 engine = pyttsx3.init('espeak')
 
-engine.setProperty('rate', 120)
+engine.setProperty('rate', 115)
 engine.setProperty('volume', 1.0)
 
 voices = engine.getProperty('voices')[29]
